@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: rgb(252, 49, 49);
+}
+
+
+h1 {
+    border-style: hidden ;
+    border-color: rgb(255, 255, 255);
+    border-width: 0.5cm;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url('sfondo.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:30;
+    margin:30;
+    
+}
+
