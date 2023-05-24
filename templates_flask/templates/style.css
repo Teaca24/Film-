@@ -1,0 +1,34 @@
+.title{
+    font-size: 65px;
+    text-align: center;
+    color: khaki;
+    
+}
+
+body{
+    background-image: url('sfondo2.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding:30;
+    margin:30;
+}
+
+.alpha-white
+{
+    background-color: rgba(255, 255, 255, 0.452);.
+}
+
+.image-box { 
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-box img{
+    width: 300px;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+
+

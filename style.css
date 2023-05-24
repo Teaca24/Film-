@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: rgb(252, 49, 49);
+    color: rgb(121, 252, 14);
 }
 
 
@@ -8,6 +8,7 @@ h1 {
     border-style: hidden ;
     border-color: rgb(255, 255, 255);
     border-width: 0.5cm;
+    
 }
 
 h1{
@@ -15,14 +16,26 @@ h1{
 }
 
 body{
-    background-image: url('sfondo.gif');
+    background-image: url('sfondo2.jpg');
     background-size: cover;
-    
-    
-    
     height: 100vh;
     padding:30;
     margin:30;
-    
 }
+
+.alpha-white.
+{
+    background-color: rgba(255, 255, 255, 0.452);
+}
+
+.image-box { 
+    display: flex; 
+    justify-content: center;
+}
+
+.image-box img{
+    width: 200px;
+    justify-content: space-between;
+}
+
 
