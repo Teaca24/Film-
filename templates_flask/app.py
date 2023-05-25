@@ -21,3 +21,5 @@ def hello():
     mycursor.execute("SELECT * FROM movies")
     myresult = mycursor.fetchall()
     return render_template('ghibli.html', movies=myresult)
+
+@app route()

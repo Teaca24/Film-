@@ -5,22 +5,31 @@
     <div>
         <title> STUDIO GHIBLI FILM </title>
     </div>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../static/css/style.css">
 </head>
 
-<body>
+<body style="background-image: url('../static/sfondo2.jpg');">
     <h1 class="title">
         <p> STUDIO GHIBLI FILM </p>
     </h1>
     <div class="image-box">
         {% for item in movies %}
-        <p>
-            movies name: {{ item[0] }}
-        </p>
-        <img src="../static/foto/{{item[0]}}.jpg" alt="{{item[0]}}" width="300">
+        <a href="/{{item[0]}}" >
+            <img src="../static/foto/{{item[0]}}.jpg" alt="{{item[0]}}" width="300"> 
+        <div>
+            <p class="colorenome">
+                movies name: {{ item[0] }}
+            </p>
+            
+            <img class="img_accapo" src="../static/foto/{{item[0]}}.jpg" alt="{{item[0]}}" width="300">
+        </div>
         {% endfor %}
+    
     </div>
 
+
+    </a>
+  
 
 
 </body>

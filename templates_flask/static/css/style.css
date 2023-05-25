@@ -5,13 +5,6 @@
     
 }
 
-body{
-    background-image: url('sfondo2.jpg');
-    background-size: cover;
-    height: 100vh;
-    padding:30;
-    margin:30;
-}
 
 .alpha-white
 {
@@ -29,6 +22,13 @@ body{
     justify-content: space-between;
     margin: 25px;
 }
+
+.colorenome {
+    color: honeydew;
+    
+}
+
+
 
 
 
